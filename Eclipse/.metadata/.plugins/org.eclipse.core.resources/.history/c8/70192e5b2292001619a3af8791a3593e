@@ -1,0 +1,205 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" 
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>
+		Phòng Đảm Bảo Chất Lượng
+	</title>
+</head>
+<body>
+<!-- <div class="container"> -->
+<div class="container-fluid">
+	<div class="row">
+		<center><img alt="Trang Chủ" src="hinh/banner.jpg" align="center"></center>
+	</div>
+
+
+<!-- panel -->
+<!-- ended -->
+<p>	<div class="row" >		
+			<div class="col-md-offset-1 col-md-10">
+				<div class="panel panel-info">
+				<div class="panel-heading">
+				<ul class="nav nav-tabs" role="tablist">
+                   	<li><a href="TrangChu.html"><span class="glyphicon glyphicon-home"></span> <b> Trang Chủ</b></a></li>
+                   	<li><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Minh chứng ĐBCL
+                   	<span class="caret"></span></a> 
+    					         <ul class="dropdown-menu">
+    					           <li><a href="TaoThemMC.html" target="_blank">Tạo thêm Minh chưng</a></li>
+    					          
+    					           <li><a href="TimKiem.html" target="_blank">Tìm kiếm Minh Chứng</a></li>
+    					         </ul>
+                   	</li>
+                   </ul>    
+         </div>
+        </div>
+         <div class=" col-md-offset-10 col-md-10">
+         <p><h5>GV. Nguyễn Văn A</h5></p>
+             <button type="submit" class="btn btn-info"><a href="TrangChu.html">Thoát</a></button>
+       </div>
+      </div>
+ </div>
+ </p>
+</div>
+
+<!-- ended -->
+<div class="container">
+  <p><div class="row">
+    <div class="col-md-offset-1 col-md-10">
+    <div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Danh Sách Minh Chứng</div>
+  <div class="panel-body">
+       <table class="table table-bordered">
+          <table class="table table-hover">
+             <thead>
+                <tr>
+                    <th>Tên Minh chứng</th>
+                    <th>Mô tả</th>
+                    <th>Yêu cầu file MC</th>
+                    <th>Người thực hiện KTMC</th>
+                    <th>Hạn chót xuất MC</th>
+                </tr>
+             </thead>
+          <tbody>
+               <tr>
+                  <td>Minh chứng Chất lượng môn học</td>
+                  <td>Tiêu Chuẩn 1</td>
+                  <td>Văn bản</td>
+                  <td>Nguyễn Văn A</td>
+                  <td>24h, 30-09-2016</td>
+                  <td><button type="submit" class="btn btn-info"><a href="ListSave.html">Lưu</a></button></td>
+              </tr>
+          </tbody>
+           <tbody>
+               <tr>
+                  <td>Minh chứng Chất lượng đồ án</td>
+                  <td>Tiêu Chuẩn 2</td>
+                  <td>Hình ảnh</td>
+                  <td>Lê Thị B</td>
+                  <td>24h, 20-10-2016</td>
+                  <td><button type="submit" class="btn btn-info"><a href="ListSave.html">Lưu</a></button></td>
+              </tr>
+          </tbody>
+           <tbody>
+               <tr>
+                  <td>Minh chứng Chất lượng bài giảng</td>
+                  <td>Tiêu Chuẩn 3</td>
+                  <td>Video</td>
+                  <td>Hoàng Anh C</td>
+                  <td>24h, 05-10-2016</td>
+                  <td><button type="submit" class="btn btn-info"><a href="ListSave.html">Lưu</a></button></td>
+              </tr>
+          </tbody>
+          </table>
+  </table>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </p>
+</body>
+</html> ontent="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<title>Đăng nhập</title>
+<style type="text/css">
+.ex{
+	margin: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+			<div class="row">
+				<center><img alt="Trang Chủ" src="hinh/Capture1.PNG" "></center>
+			</div>			
+		</div>
+		<!-- code panel -->
+<div class="col-md-offset-1 col-md-9">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Đại Học Sư Phạm Kỹ Thuật TP.HCM</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Trang Chủ</a></li>
+       
+        <li><a href="#">Hướng Dẫn</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+<!-- dang nhap -->
+<div class="panel panel-default" style="width: 500px; margin-top:2cm; margin-left: auto; margin-right: auto">
+    <div class="panel-heading" >
+        <h3 class="panel-title">Login</h3>
+    </div>
+        <div class="panel-body">
+        <div class="ex">
+	<div class="container-fluid">
+		<div class="row">
+		
+		
+		<!-- form goi action login.jsp -->
+			<form class="form-horizontal" name="frm" action="login.jsp">
+				<div class="form-group">
+					<label class="control-label col-md-4">Tài khoản:</label>
+					<div class="col-md-6">
+						<input type="user" class="form-control" placeholder="User" name="us" >
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-md-4">Mật Khẩu:</label>
+					<div class="col-md-6">
+						<input type="password" class="form-control" placeholder="Password" name="pa">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-offset-1 col-md-12">
+						<input id="gv" name="choose" type="radio" value="GiangVien"> <b>Giảng Viên</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<input id="sv" name="choose" type="radio" value="SinhVien"><b>Sinh Viên</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<input id="ad" name="choose" type="radio" value="Admin"><b>Admin</b></br>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-offset-4 col-md-10">
+					
+					
+					<!-- button submit thong tin dang nhap -->
+						<button type="submit" class="btn btn-info">Đăng Nhập</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+            </div>
+        </div>
+<script type="text/javascript">
+</script>
+</body>
+</html>
